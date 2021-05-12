@@ -1,0 +1,32 @@
+body {
+  background-color: "#DFDFDF"
+}
+
+#game-board {
+  width: 600px
+}
+
+#score {
+  font-size: 1.5em;
+  margin: 1.25em 0;
+}
+#answer {
+  font-size: 1.5em;
+  margin: 1.25em 0;
+}
+#value {
+  font-size: 1.25em;
+  margin: 1.25em 0;
+}
+#category-title {
+  font-size: 1em;
+  margin: 1.25em 0;
+}
+#invalid-count {
+  font-size: 1em;
+  margin: 1.25em 0;
+}
+#question {
+  font-size: 1.25em;
+  margin: 1.25em 0;
+}

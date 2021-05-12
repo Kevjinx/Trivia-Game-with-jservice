@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.1/build/pure-min.css" integrity="sha384-QkSsJi6SGgWv5LAx1TdvIDRf8TW5Ui4NVKqDDlK1wY2eKioo7wvYIJvGWFQSFE4U" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="game.css">
+  <title>Document</title>
+</head>
+<body>
+
+  <div id='game-board'>
+    <tr>
+      <button class='pure-button' id='use-promise'>Promise</button>
+      <button class='pure-button' id='use-async-await'>async-await</button>
+      <button class='pure-button' id='use-callback'>callback</button>
+    </tr>
+    <div id="score"></div>
+    <div id="category-title"></div>
+    <div id="question"></div>
+    <div id="value"></div>
+    <div id="invalid-count"></div>
+    <form action="">
+      <textarea name="" class='pure-input-1' id="player-response" cols="30" rows="10"></textarea>
+    </form>
+    <button id='check-response' class='pure-button'>Check response</button>
+    <div id='answer'></div>
+
+
+  </div>
+
+
+
+
+
+
+
+  <script type='module' src='./game.js'></script>
+</body>
+</html>
