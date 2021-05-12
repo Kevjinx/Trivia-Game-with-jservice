@@ -16,3 +16,6 @@ export const getClue = () => {
   //   })
   // return resultJson
 }
+
+
+//export default getClue
